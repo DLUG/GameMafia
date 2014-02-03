@@ -3,6 +3,10 @@
     package="com.anyway.android.gamemafia"
     android:versionCode="1"
     android:versionName="1.0" >
+    
+    <supports-screens
+        android:largeScreens="true"
+        android:anyDensity="true" />
 
     <uses-sdk
         android:minSdkVersion="8"
@@ -22,6 +26,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="JoinActivity"></activity>
+        <activity android:name="MainActivity"></activity>
+        <activity android:name="RoomActivity"></activity>
     </application>
 
 </manifest>
