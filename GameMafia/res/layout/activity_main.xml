@@ -39,7 +39,7 @@
                     android:orientation="vertical" >
 
                     <TextView
-                        android:id="@+id/textView2"
+                        android:id="@+id/login_text_pw"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignLeft="@+id/room_text_playername4"
@@ -66,16 +66,16 @@
                         android:id="@+id/textView3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_alignLeft="@+id/textView2"
-                        android:layout_alignRight="@+id/textView2"
-                        android:layout_below="@+id/textView2"
+                        android:layout_alignLeft="@+id/login_text_pw"
+                        android:layout_alignRight="@+id/login_text_pw"
+                        android:layout_below="@+id/login_text_pw"
                         android:layout_marginTop="20dp"
                         android:gravity="center"
                         android:text="Record"
                         android:textSize="20dp" />
 
                     <ImageView
-                        android:id="@+id/imageView1"
+                        android:id="@+id/login_img_logo"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignBottom="@+id/textView4"
@@ -83,7 +83,7 @@
                         android:layout_alignTop="@+id/room_text_playername4"
                         android:layout_marginLeft="173dp"
                         android:layout_marginRight="11dp"
-                        android:layout_toRightOf="@+id/textView2"
+                        android:layout_toRightOf="@+id/login_text_pw"
                         android:src="@drawable/ic_launcher" />
 
                     <TextView
@@ -111,24 +111,24 @@
                         android:id="@+id/scrollView1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_above="@+id/button1"
+                        android:layout_above="@+id/login_btn_join"
                         android:layout_alignParentTop="true"
                         android:layout_marginTop="70dp"
                         android:background="#44461514" >
                     </ScrollView>
 
                     <EditText
-                        android:id="@+id/editText1"
+                        android:id="@+id/login_editTxt_id"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_alignParentBottom="true"
                         android:layout_alignParentLeft="true"
-                        android:layout_alignRight="@+id/button1"
+                        android:layout_alignRight="@+id/login_btn_join"
                         android:layout_marginRight="60dp"
                         android:ems="10" />
 
                     <Button
-                        android:id="@+id/button1"
+                        android:id="@+id/login_btn_join"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentBottom="true"
@@ -247,14 +247,14 @@
         android:gravity="center_vertical|center_horizontal|center" >
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/login_btn_login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="빠른입장"
             android:textSize="20dp" />
 
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/login_btn_join"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="방만들기"
