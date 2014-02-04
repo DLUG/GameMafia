@@ -14,28 +14,28 @@
         android:layout_height="wrap_content" >
 
         <ImageButton
-            android:id="@+id/imageButton1"
+            android:id="@+id/room_imgbtn_player1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:src="@drawable/ic_launcher" />
 
         <ImageButton
-            android:id="@+id/imageButton2"
+            android:id="@+id/room_imgbtn_player2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:src="@drawable/ic_launcher" />
 
         <ImageButton
-            android:id="@+id/imageButton3"
+            android:id="@+id/room_imgbtn_player3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:src="@drawable/ic_launcher" />
 
         <ImageButton
-            android:id="@+id/imageButton4"
+            android:id="@+id/room_imgbtn_player4"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -52,10 +52,10 @@
             android:layout_weight="1" >
 
             <TextView
-                android:id="@+id/TextView03"
+                android:id="@+id/room_text_playername1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="Waiting.." />
 
             <ImageView
                 android:id="@+id/ImageView03"
@@ -70,10 +70,10 @@
             android:layout_weight="1" >
 
             <TextView
-                android:id="@+id/TextView02"
+                android:id="@+id/room_text_playername2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="Waiting.." />
 
             <ImageView
                 android:id="@+id/ImageView02"
@@ -88,10 +88,10 @@
             android:layout_weight="1" >
 
             <TextView
-                android:id="@+id/TextView01"
+                android:id="@+id/room_text_playername3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="Waiting.." />
 
             <ImageView
                 android:id="@+id/ImageView01"
@@ -106,10 +106,10 @@
             android:layout_weight="1" >
 
             <TextView
-                android:id="@+id/textView1"
+                android:id="@+id/room_text_playername4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="Waiting.." />
 
             <ImageView
                 android:id="@+id/imageView1"
@@ -124,28 +124,28 @@
         android:layout_height="wrap_content" >
 
         <ImageButton
-            android:id="@+id/ImageButton03"
+            android:id="@+id/room_imgbtn_player5"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:src="@drawable/ic_launcher" />
 
         <ImageButton
-            android:id="@+id/ImageButton01"
+            android:id="@+id/room_imgbtn_player6"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:src="@drawable/ic_launcher" />
 
         <ImageButton
-            android:id="@+id/ImageButton02"
+            android:id="@+id/room_imgbtn_player7"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:src="@drawable/ic_launcher" />
 
         <ImageButton
-            android:id="@+id/ImageButton04"
+            android:id="@+id/room_imgbtn_player8"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -162,10 +162,10 @@
             android:layout_weight="1" >
 
             <TextView
-                android:id="@+id/TextView07"
+                android:id="@+id/room_text_playername5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="Waiting.." />
 
             <ImageView
                 android:id="@+id/ImageView07"
@@ -180,10 +180,10 @@
             android:layout_weight="1" >
 
             <TextView
-                android:id="@+id/TextView05"
+                android:id="@+id/room_text_playername6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="Waiting.." />
 
             <ImageView
                 android:id="@+id/ImageView06"
@@ -198,10 +198,10 @@
             android:layout_weight="1" >
 
             <TextView
-                android:id="@+id/TextView06"
+                android:id="@+id/room_text_playername7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="Waiting.." />
 
             <ImageView
                 android:id="@+id/ImageView05"
@@ -216,10 +216,10 @@
             android:layout_weight="1" >
 
             <TextView
-                android:id="@+id/TextView04"
+                android:id="@+id/room_text_playername8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="Waiting.." />
 
             <ImageView
                 android:id="@+id/ImageView04"

@@ -12,7 +12,7 @@ public class Doctor extends Job {
 	}
 //	public Doctor()
 //	{
-//		this.jobname = "¿«ªÁ";
+//		this.jobname = "ÏùòÏÇ¨";
 //		this.whichTeam = true;
 //		this.vote();
 //	}
@@ -28,10 +28,10 @@ public class Doctor extends Job {
 //					for(int j = 0 ; j < playercount; j ++)
 //					{
 //						doctorChoice[j] = 0;
-//						image[j].setImageDrawable(R.drawable."ƒ°∑·æ»«ÿ¡÷¥¬ ¿ÃπÃ¡ˆ");
+//						image[j].setImageDrawable(R.drawable."ÏπòÎ£åÏïàÌï¥Ï£ºÎäî Ïù¥ÎØ∏ÏßÄ");
 //					}	
 //					doctorChoice[i] = 1;
-//					image[i].setImageDrawable(R.drawable."ƒ°∑·«ÿ¡÷¥¬¿ÃπÃ¡ˆ");
+//					image[i].setImageDrawable(R.drawable."ÏπòÎ£åÌï¥Ï£ºÎäî Ïù¥ÎØ∏ÏßÄ");
 //				}
 //			});
 //		}

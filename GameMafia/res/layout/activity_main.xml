@@ -42,9 +42,9 @@
                         android:id="@+id/textView2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_alignLeft="@+id/textView1"
-                        android:layout_alignRight="@+id/textView1"
-                        android:layout_below="@+id/textView1"
+                        android:layout_alignLeft="@+id/room_text_playername4"
+                        android:layout_alignRight="@+id/room_text_playername4"
+                        android:layout_below="@+id/room_text_playername4"
                         android:layout_marginTop="24dp"
                         android:gravity="center"
                         android:text="Level"
@@ -80,14 +80,14 @@
                         android:layout_height="wrap_content"
                         android:layout_alignBottom="@+id/textView4"
                         android:layout_alignParentRight="true"
-                        android:layout_alignTop="@+id/textView1"
+                        android:layout_alignTop="@+id/room_text_playername4"
                         android:layout_marginLeft="173dp"
                         android:layout_marginRight="11dp"
                         android:layout_toRightOf="@+id/textView2"
                         android:src="@drawable/ic_launcher" />
 
                     <TextView
-                        android:id="@+id/textView1"
+                        android:id="@+id/room_text_playername4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentLeft="true"
@@ -137,7 +137,7 @@
                         android:text="추가" />
 
                     <TextView
-                        android:id="@+id/textView1"
+                        android:id="@+id/room_text_playername4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentLeft="true"
@@ -222,7 +222,7 @@
                     android:background="#55f08072"
                     android:orientation="vertical" >
 	                    <TextView
-                        android:id="@+id/textView1"
+                        android:id="@+id/room_text_playername4"
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
                         android:layout_alignParentLeft="true"
