@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.ViewDebug.FlagToString;
 import android.widget.Button;
 
 public class JoinActivity extends Activity {
