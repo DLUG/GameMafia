@@ -39,7 +39,6 @@ public class MainActivity extends Activity {
         tabhost.getTabWidget().getChildAt(1).setBackgroundColor(Color.parseColor("#557fffd4"));
         tabhost.getTabWidget().getChildAt(2).setBackgroundColor(Color.parseColor("#557fffd4"));
         tabhost.getTabWidget().getChildAt(3).setBackgroundColor(Color.parseColor("#557fffd4"));
-	    // TODO Auto-generated method stub
 	}
 
 }
