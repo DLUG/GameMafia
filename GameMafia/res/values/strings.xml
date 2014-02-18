@@ -4,5 +4,7 @@
     <string name="app_name">GameMafia</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="terms">개인정보 보호법\n제1장 총칙\n제1조(목적) 이 법은 개인정보의 수집·유출·오용·남용으로부터 사생활의 비밀 등을 보호함으로써 국민의 권리와 이익을 증진하고, 나아가 개인의 존엄과 가치를 구현하기 위하여 개인정보 처리에 관한 사항을 규정함을 목적으로 한다.\n(이하 생략)
+	</string>
 
 </resources>

@@ -51,19 +51,19 @@
                         android:textSize="20dp" />
 
                     <TextView
-                        android:id="@+id/textView4"
+                        android:id="@+id/join_text_pwcheck"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_alignLeft="@+id/textView3"
-                        android:layout_alignRight="@+id/textView3"
-                        android:layout_below="@+id/textView3"
+                        android:layout_alignLeft="@+id/join_text_pw"
+                        android:layout_alignRight="@+id/join_text_pw"
+                        android:layout_below="@+id/join_text_pw"
                         android:layout_marginTop="20dp"
                         android:gravity="center"
                         android:text="Ranking"
                         android:textSize="20dp" />
 
                     <TextView
-                        android:id="@+id/textView3"
+                        android:id="@+id/join_text_pw"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignLeft="@+id/login_text_pw"
@@ -78,7 +78,7 @@
                         android:id="@+id/login_img_logo"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_alignBottom="@+id/textView4"
+                        android:layout_alignBottom="@+id/join_text_pwcheck"
                         android:layout_alignParentRight="true"
                         android:layout_alignTop="@+id/room_text_playername4"
                         android:layout_marginLeft="173dp"
@@ -101,43 +101,14 @@
                 </RelativeLayout>
 
                 <RelativeLayout
-                    android:id="@+id/friendsList"
+                    android:id="@+id/friends_List"
                     android:layout_width="match_parent"
                     android:layout_height="336dp"
                     android:background="#55f08072"
                     android:orientation="vertical" >
 
-                    <ScrollView
-                        android:id="@+id/scrollView1"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_above="@+id/login_btn_join"
-                        android:layout_alignParentTop="true"
-                        android:layout_marginTop="70dp"
-                        android:background="#44461514" >
-                    </ScrollView>
-
-                    <EditText
-                        android:id="@+id/login_editTxt_id"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentBottom="true"
-                        android:layout_alignParentLeft="true"
-                        android:layout_alignRight="@+id/login_btn_join"
-                        android:layout_marginRight="60dp"
-                        android:ems="10" />
-
-                    <Button
-                        android:id="@+id/login_btn_join"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentBottom="true"
-                        android:layout_alignParentRight="true"
-                        android:layout_marginRight="13dp"
-                        android:text="추가" />
-
-                    <TextView
-                        android:id="@+id/room_text_playername4"
+    			 <TextView
+                        android:id="@+id/friendAdd"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentLeft="true"
@@ -147,8 +118,41 @@
                         android:text="친구추가 "
                         android:textSize="22dp"
                         android:textStyle="bold" />
+                    <ScrollView
+                        android:id="@+id/join_scroll_terms"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_below="@+id/friendAdd"
+                        android:layout_above="@+id/join_editTxt_id"
+                        >
+						<TextView
+                        android:id="@+id/friendList"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_below="@+id/friendAdd"
+                        android:layout_above="@+id/join_editTxt_id"
+                        android:textSize="22dp" />
+                    </ScrollView>
+                    <EditText
+                        android:id="@+id/join_editTxt_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignRight="@+id/friendAddBtn"
+                        android:layout_marginRight="60dp"
+                        android:ems="10" />
+                    
+                    <Button
+                        android:id="@+id/friendAddBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="13dp"
+                        android:text="추가" />                   
                 </RelativeLayout>
-
+                
                 <RelativeLayout
                     android:id="@+id/option"
                     android:layout_width="match_parent"
@@ -161,60 +165,40 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerHorizontal="true"
-                        android:layout_marginTop="30dp"
+                        android:layout_marginTop="70dp"
                         android:gravity="center"
                         android:text="효과음"
                         android:textSize="20dp" />
 
-                    <SeekBar
-                        android:id="@+id/seekBar1"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@+id/text"
-                        android:layout_centerHorizontal="true"
-                        android:max="100"
-                        android:progress="50" >
-                    </SeekBar>
-
-                    <TextView
-                        android:id="@+id/tv_val"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@+id/seekBar1"
-                        android:text=" 현재 값 : 50 "
-                        android:textSize="20dp" >
-                    </TextView>
+   		  			<Switch
+   		   			   android:id="@+id/switch1"
+   		   			   android:layout_width="wrap_content"
+   		   			   android:layout_height="wrap_content"
+   		   			   android:layout_below="@+id/text"
+   		   			   android:layout_centerHorizontal="true"
+   		   			   android:layout_marginTop="20dp"
+   		   			   android:text="OFF/ON" />
 
                     <TextView
                         android:id="@+id/text2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_below="@+id/tv_val"
+                        android:layout_below="@+id/switch1"
                         android:layout_centerHorizontal="true"
+                        android:layout_marginTop="20dp"
                         android:gravity="center"
                         android:text="배경음"
                         android:textSize="20dp" />
-
-                    <SeekBar
-                        android:id="@+id/seekBar2"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@+id/text2"
-                        android:layout_centerHorizontal="true"
-                        android:max="100"
-                        android:progress="50" >
-                    </SeekBar>
-
-                    <TextView
-                        android:id="@+id/tv_val1"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@+id/seekBar2"
-                        android:text=" 현재 값 : 50 "
-                        android:textSize="20dp" >
-                    </TextView>
+   		  			<Switch
+   		  			    android:id="@+id/switch2"
+     				    android:layout_width="wrap_content"
+        				android:layout_height="wrap_content"
+        				android:layout_below="@+id/text2"
+      					android:layout_centerHorizontal="true"
+       					android:layout_marginTop="20dp"
+        				android:text="OFF/ON" />
+         
                 </RelativeLayout>
-                
                 <RelativeLayout
                     android:id="@+id/help"
                     android:layout_width="match_parent"
@@ -261,7 +245,7 @@
             android:textSize="20dp" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/EXIT"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="종료하기"

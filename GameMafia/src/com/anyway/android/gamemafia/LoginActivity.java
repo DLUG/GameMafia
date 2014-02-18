@@ -31,7 +31,6 @@ public class LoginActivity extends Activity {
 		
 		// click join button action
 		btn_join.setOnClickListener(new View.OnClickListener() {
-			
 			@Override
 			public void onClick(View v) {
 				Intent intent = new Intent(getApplicationContext(), JoinActivity.class);
@@ -39,6 +38,28 @@ public class LoginActivity extends Activity {
 				startActivity(intent);
 			}
 		});
+//		btn_login.setOnClickListener(new View.OnClickListener(){	
+//			String id = editTxt_id.getText().toString();
+//			String pw = editTxt_pw.getText().toString();
+//			con = DriverManager.getConnection(url, id, pw);
+//			String sql = "SELECG id, pw FROM user WHERE id = '" + id +"' AND pw = '" + pw +"'";
+//			pstmt = con.prepareStatment(sql);
+//			rs = pstmt.executQuery();
+//			if(rs.getString(1).equals(id) && rs.getString(2).equals(pw))
+//			{
+//				넘어감
+//			}
+//			else
+//			{
+//				AlertDialog.Builder alert = new AlertDialog.Builder(this);
+//				alert.setTitle("틀림ㅋ");
+//				alert.setMessage("ID 혹은 패스워드가 틀렸습니다.");
+//				alert.setPositiveButton("확인",null);
+//				alert.create();
+//			alert.show();
+//			}
+//		});
+
 		
 		// click login button action
 		btn_login.setOnClickListener(new View.OnClickListener() {
@@ -69,7 +90,7 @@ public class LoginActivity extends Activity {
 				}
 			}
 		});
-	}
+}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
